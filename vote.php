@@ -1,14 +1,3 @@
- <?
-    //include_once( 'config.php' );
-    //include_once( 'saetv2.ex.class.php' );
-	//$c = new SaeTClientV2( WB_AKEY , WB_SKEY , $_SESSION['token']['access_token'] );
-?>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>发起投票</title>
-</head>
-<body>
  <?  
    
     $mysql = new SaeMysql();
@@ -30,6 +19,5 @@
 		echo "<p>发送成功</p>";
 	}
 }*/
-	 //echo '<meta http-equiv="refresh" content="0;url=weibolist.php">';
+	 echo '<meta http-equiv="refresh" content="0;url=weibolist.php">';
 ?>
-</body>
